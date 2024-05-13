@@ -9,9 +9,8 @@ A group project for finding a path in a maze. Made by Aleksis Java and Aija Moni
 
 ## Inputs:
 - **Three `.txt` files** containing mazes defined as follows:
-G503746
-0XXXXX4
-3XS6138
+![image](https://github.com/AijaMonika/Grupu-projekts-LABIRINTS/assets/72495103/edc623c8-a717-4d58-a3d4-fe5cd6e3e130)
+
 
 - `X` represents walls, which are non-traversable.
 - `G` represents the endpoint or goal.
