@@ -9,6 +9,7 @@ A group project for finding a path in a maze. Made by Aleksis Java and Aija Moni
 
 ## Inputs:
 - **Three `.txt` files** containing mazes defined as follows:
+
 ![image](https://github.com/AijaMonika/Grupu-projekts-LABIRINTS/assets/72495103/737fbb6c-2640-4656-ad0a-4c65db29b054)
 
 - `X` represents walls, which are non-traversable.
