@@ -68,7 +68,7 @@ Made by Aleksis Java and Aija Monika Vainiņa.
 9. **Conclusion: Optimization is Key**
    - Quick thought - check each valid cell, not path, and register the shortest path to a valid cell (BigBrain approach).
 
-10. **Optimized Algorithm Generation**
+10. **The Optimization**
     - **Prompt**: Generate an optimized algorithm that doesn’t use imports, is based on the previously made `find_paths`, using the idea of checking the best path to a cell with an example of a diagonal skip.
     - Involved a lot of code copy-pasting, describing examples, combating errors until arriving at a solution.
     - When all errors were fixed and a valid algorithm was generated, it was simply copied and pasted.
