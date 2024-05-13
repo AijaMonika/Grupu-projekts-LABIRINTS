@@ -24,7 +24,7 @@ Made by Aleksis Java and Aija Monika Vainiņa.
 - **Textual Representation**: A description of the path from S to G detailing the movements step-by-step.
 - **Total Coins Gathered**: The sum of all coin values collected on the path from S to G with the minimum amount of coins gathered.
 
-![image](https://github.com/AijaMonika/Grupu-projekts-LABIRINTS/assets/72495103/138fa1b3-5c10-462b-b2ef-9612f50671be)
+![image](https://github.com/AijaMonika/Grupu-projekts-LABIRINTS/assets/72495103/84f1584b-5ed9-404d-b471-971c43188b8b)
 ![image](https://github.com/AijaMonika/Grupu-projekts-LABIRINTS/assets/72495103/eab378b9-f191-4f2c-a2b7-aa547be001e4)
 
 
