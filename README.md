@@ -9,7 +9,7 @@ Made by Aleksis Java and Aija Monika Vainiņa.
 - **1076**
 - **1763**
 
-**Time complexity for each of the two algorithms**
+**Time complexity for each of the two algorithms:**
 
 ![image](https://github.com/AijaMonika/Grupu-projekts-LABIRINTS/assets/72495103/2332ccfe-58df-4355-8d76-dd0b8090e08d)
 
