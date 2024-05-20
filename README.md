@@ -29,8 +29,10 @@ Made by Aleksis Java and Aija Monika Vainiņa.
 
 
 
-![brute](https://github.com/AijaMonika/Grupu-projekts-LABIRINTS/assets/72495103/ac1d58ed-8257-4e0f-a50c-d15679709932)
+
+
 ### Brute Force Algorithm
+![brute](https://github.com/AijaMonika/Grupu-projekts-LABIRINTS/assets/72495103/ac1d58ed-8257-4e0f-a50c-d15679709932)
 
 **Time Complexity:** O(2^(N^2))
 
