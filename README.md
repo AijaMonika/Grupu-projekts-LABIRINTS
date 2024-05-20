@@ -15,50 +15,49 @@ Made by Aleksis Java and Aija Monika Vainiņa.
 
 ![optimized](https://github.com/AijaMonika/Grupu-projekts-LABIRINTS/assets/72495103/efdf7666-18d4-401d-81d1-7ef8213cba6a)
 
-![brute](https://github.com/AijaMonika/Grupu-projekts-LABIRINTS/assets/72495103/ac1d58ed-8257-4e0f-a50c-d15679709932)
-
 ### Optimized Algorithm
 
-**Space Complexity: \(O(N^2)\)**
+**Space Complexity: O(N^2)**
 
 - **Visited Set**:
-  - In the worst case, we need to store up to \(N^2\) cells.
-  - Space complexity for the visited set is \(O(N^2)\).
+  - In the worst case, we need to store up to N^2 cells.
+  - Space complexity for the visited set is O(N^2).
 
 - **Priority Queue**:
-  - At most, the queue will contain \(N^2\) elements.
-  - Space complexity for the priority queue is \(O(N^2)\).
+  - At most, the queue will contain N^2 elements.
+  - Space complexity for the priority queue is O(N^2).
 
 - **Path Storage**:
-  - The path storage will at most require space proportional to the number of cells \(N^2\).
-  - Space complexity for path storage is \(O(N^2)\).
+  - The path storage will at most require space proportional to the number of cells N^2.
+  - Space complexity for path storage is O(N^2).
 
-**Time Complexity: \(O(N^2 \log N)\)**
+**Time Complexity: O(N^2 log N)**
 
 - **Initialization**:
-  - Setting up the priority queue and visited set is \(O(1)\).
+  - Setting up the priority queue and visited set is O(1).
 
 - **Priority Queue Operations**:
-  - In the worst case, every cell (total \(N^2\) cells) could be added to the queue.
-  - Each insertion into the priority queue takes \(O(\log n)\) time where \(n\) is the number of elements in the queue at that point.
-  - In the worst case, sorting the queue for each extraction could take \(O(N^2 \log N^2)\), which simplifies to \(O(N^2 \log N)\).
+  - In the worst case, every cell (total N^2 cells) could be added to the queue.
+  - Each insertion into the priority queue takes O(log n) time where n is the number of elements in the queue at that point.
+  - In the worst case, sorting the queue for each extraction could take O(N^2 log N^2), which simplifies to O(N^2 log N).
 
 - **Exploring Neighbors**:
   - For each cell, we explore its neighbors (up to 8 neighbors, a constant time operation).
-  - Checking and updating the queue for each neighbor takes \(O(\log N^2) = O(\log N)\) time.
-  - Total neighbor exploration in the worst case is \(O(N^2 \cdot 8) = O(N^2)\).
+  - Checking and updating the queue for each neighbor takes O(log N^2) = O(log N) time.
+  - Total neighbor exploration in the worst case is O(N^2 * 8) = O(N^2)
 
+![brute](https://github.com/AijaMonika/Grupu-projekts-LABIRINTS/assets/72495103/ac1d58ed-8257-4e0f-a50c-d15679709932)
 ### Brute Force Algorithm
 
-**Time Complexity: \(O(2^{N^2})\)**
+**Time Complexity: O(2^(N^2))**
 
-- The depth of the recursion is at most \(N^2\) (the number of cells in the maze).
-- In the worst case, the recursive call stack can go as deep as the number of cells, leading to a time complexity of \(O(2^{N^2})\).
+- The depth of the recursion is at most N^2 (the number of cells in the maze).
+- In the worst case, the recursive call stack can go as deep as the number of cells, leading to a time complexity of O(2^(N^2)).
 
-**Space Complexity: \(O(2^{N^2} \cdot N^2)\)**
+**Space Complexity: O(2^(N^2) * N^2)**
 
-- The algorithm stores all possible paths. In the worst case, there can be \(O(2^{N^2})\) paths.
-- Each path can be of length \(O(N^2)\).
+- The algorithm stores all possible paths. In the worst case, there can be O(2^(N^2)) paths.
+- Each path can be of length O(N^2).
 
 
 
