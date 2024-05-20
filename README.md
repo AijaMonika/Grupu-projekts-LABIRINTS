@@ -1,7 +1,7 @@
 # Grupu-projekts-LABIRINTS
 A group project for finding a path in a maze. The solution is a sum of coins collected on the way out of the maze (If there are multiple solutions, the solution is the one with LEAST coins collected). It is allowed to move diagonally.
 
-Made by Aleksis Java and Aija Monika Vainiņa.
+Made by **Aleksis Java** and **Aija Monika Vainiņa.**
 
 ## PROMPTS (@ChatGPT4) & BRAINING (Short Recaps)
 **SOLUTION for each maze:**
