@@ -94,3 +94,5 @@ def optimized_find_paths(start_position, maze_content, maze_size):
 
     return None, float('inf')  # Return None if no path is found
 
+
+

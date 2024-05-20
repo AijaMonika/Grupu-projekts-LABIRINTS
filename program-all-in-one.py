@@ -188,7 +188,7 @@ def main():
     }
 
     global maze_size
-    maze_size = {4: 4, 1: 11, 2: 31, 3: 101}.get(maze_number, 4)
+    maze_size = {4: 6, 1: 11, 2: 31, 3: 101}.get(maze_number, 4)
     
     # Fetch the correct file path based on the chosen maze number
     maze_file_path = maze_files.get(maze_number, 'maze_4x4.txt')
