@@ -11,6 +11,8 @@ Made by Aleksis Java and Aija Monika Vainiņa.
 
 **Time complexity for each of the two algorithms**
 
+![image](https://github.com/AijaMonika/Grupu-projekts-LABIRINTS/assets/72495103/2332ccfe-58df-4355-8d76-dd0b8090e08d)
+
 ![optimized](https://github.com/AijaMonika/Grupu-projekts-LABIRINTS/assets/72495103/efdf7666-18d4-401d-81d1-7ef8213cba6a)
 
 ![brute](https://github.com/AijaMonika/Grupu-projekts-LABIRINTS/assets/72495103/ac1d58ed-8257-4e0f-a50c-d15679709932)
